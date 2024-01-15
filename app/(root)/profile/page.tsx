@@ -21,6 +21,7 @@ const ProfilePage = async ({ searchParams}: SearchParamProps) => {
   const organizedEvents = await getEventsByUser({
     userId,
     page: eventsPage,
+    limit: 3
   });
 
   return (
@@ -64,7 +65,7 @@ const ProfilePage = async ({ searchParams}: SearchParamProps) => {
           emptyTitle="No event have been created yet "
           emptyStateSubtext="Go create some now"
           collectionType="Events_Organized"
-          limit={6}
+          limit={3}
           page={eventsPage}
           urlParamName="eventsPage"
           totalPages={organizedEvents?.totalPages}

@@ -20,7 +20,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
   return (
     <div className="group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-white shadow-md transition-all hover:shadow-lg md:min-h-[430px]">
       <Link
-        href={`/events/${event._id}`}
+        href={`/events/${event._id}?page=1`}
         style={{ backgroundImage: `url(${event.imageUrl})` }}
         className="flex-center flex-grow bg-grey-50 bg-cover bg-center text-grey-500 hover:scale-105 transition-transform"
       />
@@ -48,7 +48,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
             <span className="p-semibold-14 w-min rounded-full bg-green-100 px-4 py-1 text-green-60">
               {event.isFree ? "FREE" : `$${event.price}`}
             </span>
-            <p className="p-semibold-14 w-min rounded-full bg-grey-500/10 px-1 py-1 text-grey-500 line-clamp-1">
+            <p className="p-semibold-14 w-min rounded-full bg-grey-500/10 px-4 py-1 text-grey-500 line-clamp-1">
               {event.category.name}
             </p>
           </div>
@@ -58,7 +58,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           {formatDateTime(event.startDateTime).dateTime}
         </p>
 
-        <Link href={`/events/${event._id}`}>
+        <Link href={`/events/${event._id}?page=1`}>
           <p className="p-medium-16 md:p-medium-20 line-clamp-2 flex-1 text-black transition-colors hover:text-primary-500">
             {event.title}
           </p>
@@ -70,7 +70,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           </p>
 
           {hasOrderLink && (
-            <Link href={`/orders?eventId=${event._id}`} className="flex gap-2">
+            <Link href={`/orders?eventId=${event._id}?page=1`} className="flex gap-2">
               <p className="text-primary-500">Order Details</p>
               <Image
                 src="/assets/icons/arrow.svg"
