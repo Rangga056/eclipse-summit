@@ -1,7 +1,17 @@
+import { IEvent } from "@/lib/database/models/event.model"
+import { Button } from "../ui/button"
 
-const Checkout = () => {
+const Checkout = ({ event, userId }: { event: IEvent, userId: string }) => {
+  const onCheckout = async() => {
+    console.log("CHECKOUT")
+  }
+
   return (
-    <div>Checkout</div>
+    <form action={onCheckout} method="post">
+      <Button>
+
+      </Button>
+    </form>
   )
 }
 
