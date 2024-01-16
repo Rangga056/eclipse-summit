@@ -36,7 +36,7 @@ const ProfilePage = async ({ searchParams}: SearchParamProps) => {
         </div>
       </section>
 
-      a<section className="wrapper my-8">
+      <section className="wrapper my-8">
       <Collection
           data={orderedEvents}
           emptyTitle="No event tickets purchased yet "
