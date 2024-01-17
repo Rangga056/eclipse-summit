@@ -1,6 +1,6 @@
 ## Eclipse Summit
 
-Eclipse Summit is an advanced event management web application that empowers users to seamlessly organize and participate in events. Whether you're planning an event or looking to attend, Eclipse Summit provides a user-friendly experience for creating events, managing details, and purchasing tickets.
+Eclipse Summit is an advanced event management web application that empowers users to seamlessly organize and participate in events. Whether you're planning an event or looking to attend, Eclipse Summit provides a user-friendly experience for creating events, managing details, and purchasing tickets. [click here](https://eclipse-summit.vercel.app/) to visit eclipse summit
 
 ## Project Screen Shot(s)
 
