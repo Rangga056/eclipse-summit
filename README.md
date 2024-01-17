@@ -53,12 +53,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
   - Context: This project is part of my ongoing exploration of web development technologies and was undertaken during my study at Universitas Nasional.
 
-  - Objective: The main goal was to build an application that simplifies event management, enabling users to create and participate in events. I utilized Next.js 14, TypeScript, Tailwind CSS, MongoDB, Vercel for deployment, Shadcn for shadow DOM implementation, and Clerk for authentication.
+  - Objective: The main goal was to build an application that simplifies event management, enabling users to create and participate in events
 
   - Challenges: Managing event details and implementing ticket purchasing functionality presented challenges. I invested time in researching these aspects to ensure a robust and efficient solution.
 
   - Unexpected Obstacles: Adapting the project to accommodate ticket purchasing and ensuring a seamless user experience posed unexpected challenges.
 
-  - Tooling: I chose Next.js 14 for its improved performance and TypeScript support. Tailwind CSS provides a utility-first approach for styling, while MongoDB serves as the backend database. Vercel simplifies deployment, Shadcn adds shadow DOM capabilities, Stripe for the payment gateaway, and Clerk handles authentication.
+  - Tooling: I chose Next.js 14 for its improved performance and TypeScript support. Tailwind CSS provides a utility-first approach for styling, while MongoDB serves as the backend database. Vercel simplifies deployment, Shadcn beautiful, accessible, and customizable, Stripe for the payment gateaway, and Clerk handles the user authentication.
 
 At the end of the day, the technologies implemented in this project are React, Next JS 14, Typescript, MongoDB, Clerk, Shadcn, Stripe and a significant amount of VanillaJS, JSX/TSX, and TailwindCSS.
